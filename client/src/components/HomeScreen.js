@@ -41,8 +41,8 @@ function Home() {
 
     return (
         <div>
-            <Helmet><title>PIZZA PALACE</title></Helmet>
-            <h1 style={{ textAlign: 'center' }}>PIZZA MENU</h1>
+            <Helmet><title>VIRTUAL RESTO</title></Helmet>
+            <h1 style={{ textAlign: 'center' }}>RESTO MENU</h1>
             <div className="products">
 
                 {

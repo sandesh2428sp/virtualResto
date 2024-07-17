@@ -36,7 +36,7 @@ export default function PlaceOrderScreen() {
     const round2=(num)=>Math.round(num*100+Number.EPSILON)/100;
     cart.itemsPrice=round2(cart.cartItems.reduce((a,c)=>a+c.quantity*c.prices,0));
     cart.shippingPrice=cart.itemsPrice>100?round2(2):round2(10);
-    cart.taxPrice=round2(0.15*cart.itemsPrice);
+    cart.taxPrice=round2(0.05*cart.itemsPrice);
     cart.totalPrice=cart.itemsPrice+cart.shippingPrice+cart.taxPrice;
     const placeOrderHandler=async()=>{
       try {
@@ -115,14 +115,14 @@ export default function PlaceOrderScreen() {
                             <ListGroup variant="flush">
                                 <ListGroup.Item>
                                     <Row>
-                                        <Col>Pizzas</Col>
+                                        <Col>Food</Col>
                                           <Col>Rs{cart.itemsPrice.toFixed(2)}</Col>
                                     </Row>
                                 </ListGroup.Item>
                                  <ListGroup.Item>
                                     <Row>
                                         <Col>Delivery</Col>
-                                          <Col>Rs{cart.shippingPrice.toFixed(2)}</Col>
+                                        <Col>Rs 3{cart.shippingPrice.toFixed(2)}</Col>
                                     </Row>
                                 </ListGroup.Item>
                                 <ListGroup.Item>

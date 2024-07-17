@@ -36,8 +36,8 @@ function CartScreen() {
     
     return (
         <div>
-            <Helmet><title>PIZZA Cart</title></Helmet>
-            <h1>PIZZA CART</h1>
+            <Helmet><title>RESTO Cart</title></Helmet>
+            <h1>RESTO CART</h1>
             <Row>
                 <Col md={8}>
                     {cartItems.length===0?(

@@ -80,7 +80,7 @@ useEffect(() => {
                             <Helmet>
                                <title>{pizzas.name}</title>
                             </Helmet>
-                            <h6> PIZZA :<span>{pizzas.name}</span></h6>
+                            <h6> FOOD :<span>{pizzas.name}</span></h6>
                         </ListGroup.Item>
                         <ListGroup.Item>
                             <h6> RS :{pizzas.prices}</h6>

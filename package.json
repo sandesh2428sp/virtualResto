@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "mongodb": "^6.5.0",
+    "nodemon": "^3.1.0",
+    "react": "^18.2.0",
+    "reaxt": "^0.0.0"
+  }
+}

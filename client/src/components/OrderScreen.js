@@ -44,7 +44,7 @@ export default function OrderScreen() {
     const navigate=useNavigate();
     const {userInfo,paymentMethod}=state;
     const [{ loading, error, order,successPay,loadingPay,loadingDeliver,
-      successDeliver }, dispatch] = useReducer(reducer, {
+      successDeliver}, dispatch] = useReducer(reducer, {
         loading: true,
         order: {},
         error: '',

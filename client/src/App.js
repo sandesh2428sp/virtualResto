@@ -75,7 +75,7 @@ fetchCategpry();
                 <i className="fas fa-bars"></i>
                </Button>
                <LinkContainer to="/">
-                  <Navbar.Brand>PIZZA PALACE</Navbar.Brand>
+                  <Navbar.Brand>VIRTUAL RESTO</Navbar.Brand>
                </LinkContainer>
                <Navbar.Toggle aria-controls="basic-navbar-nav"><i className="fas fa-bars"></i></Navbar.Toggle>
                <Navbar.Collapse id="basic-navbar-nav">
@@ -107,7 +107,7 @@ fetchCategpry();
                <NavDropdown.Item>Dashboard</NavDropdown.Item>
              </LinkContainer>
                <LinkContainer to="/admin/productlist">
-               <NavDropdown.Item>Pizza</NavDropdown.Item>
+               <NavDropdown.Item>FOOD</NavDropdown.Item>
              </LinkContainer>
              <LinkContainer to="/admin/orders">
                <NavDropdown.Item>Orders</NavDropdown.Item>
@@ -200,7 +200,7 @@ fetchCategpry();
            </Container>
          </main>
          <footer>
-            <div className="text-center">All rights reserved</div>
+            <div className="text-center">ACA's Project</div>
          </footer>
       </div>
       </BrowserRouter>
